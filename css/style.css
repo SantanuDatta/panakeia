@@ -1,0 +1,401 @@
+/* ========================
+   -CSS Code Structure
+    1. Global CSS
+    2. Typography
+    3. Header Section
+    4. Banner Section
+    5. News Section
+    6. Newsletter Section
+    7. Poster Section
+    8. Product Section
+    9. Footer Section
+========================== */
+
+
+/*1.0 Global CSS Start*/
+
+font-family: 'Roboto Slab', serif;
+
+body{
+    background-color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+/*1.0 Global CSS End*/
+
+/*2.0 Typography Section Start*/
+
+
+/*2.0 Typography Section End*/
+
+/*3.0 Header Section Start*/
+
+header {
+    background-color: #edeff1;
+    padding: 15px 0px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #31353e;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    border-radius: 25px;
+    background-color: #dd4b2b;
+    color: #fff;
+    transition: 0.3s ease-in;
+}
+
+/*3.0 Header Section End*/
+
+/*4.0 Banner Section Start*/
+
+.banner{
+    background: url(../img/Banner-bg.png) no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.banner .col-lg-12 h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 380px;
+}
+
+.banner .col-lg-12 h5{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.banner .col-lg-4 img{
+    display: block;
+    margin: 0 auto;
+}
+
+.banner .col-lg-4 img:hover{
+    border: 5px solid #dd4b2b;
+    border-radius: 50%;
+    transition: 0.2s all ease-in-out;
+}
+
+.banner .col-lg-4 p{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.banner .col-lg-4 a:hover{
+    text-decoration: none;
+    color: #dd4b2b;
+    transition: 0.2s all ease-in-out;
+}
+
+.banner .btn{
+    display: block;
+    margin: 30px auto;
+    color: #612316;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 10px 35px;
+}
+
+.banner .btn:hover{
+    color: #fff;
+    font-weight: 600;
+    background-color: #dd4b2b;
+    transition: 0.2s all ease-in;
+}
+/*4.0 Banner Section End*/
+
+/*5.0 News Section Start*/
+
+.news{
+    background-color: #edeff1;
+}
+
+.news .col-lg-12 h3{
+    margin: 30px 0px auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+.news .col-lg-4 img{
+    width: 85%;
+    display: block;
+    margin: 30px auto;
+}
+
+.news .col-lg-4 h4{
+    text-align: center;
+    font-weight: 600;
+}
+
+.news .col-lg-4 p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.news .btn{
+    background-color: #fff;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 10px 30px;
+    display: block;
+    margin: 30px auto;
+}
+
+.news .btn:hover{
+    color: #fff;
+    font-weight: 600;
+    background-color: #dd4b2b;
+    transition: 0.2s all ease-in;
+}
+}
+/*5.0 News Section End*/
+
+/*6.0 Newsletter Section Start*/
+
+.mail-address{
+    height: 500px;
+}
+
+
+.mail-address h3{
+    text-align: center;
+    margin: 30px auto;
+    font-weight: 600;
+    color: #000;
+}
+
+.mail-address p{
+    text-align: center;
+    margin: 0px 30px auto;
+    color: #000;
+}
+
+.mail-address .form-inline{
+    display: block;
+    margin: 30px auto;
+}
+
+.form-control.mr-sm-2{
+    background-color: transparent;
+    color: #fff;
+    opacity: 0.8;
+    z-index: 1;
+    border-radius: 25px;
+    padding: 5px 25px;
+}
+
+.mail-address .btn{
+    z-index: 2;
+    border-radius: 25px;
+    position: relative;
+    right: 15%;
+    padding: 6px 30px;
+    background-color: #fff;
+    border-color: #dd4b2b;
+    color: #835248;
+}
+
+.mail-address .btn:hover{
+    color: #fff;
+    font-weight: 600;
+    background-color: #dd4b2b;
+    transition: 0.2s all ease-in;
+    border-color: #dd4b2b;
+}
+/*6.0 Newsletter Section End*/
+
+/*7.0 Poster Section Start*/
+
+
+.poster{
+    background-color: #edeff1;
+    height: 700px;
+}
+
+.poster h3{
+    margin: 40px auto;
+    font-weight: 600;
+}
+
+.poster p{
+    font-size: 14px;
+}
+
+.btn-one{
+    background-color: #dd4b2b;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 5px 30px;
+    margin: 30px 0px;
+    color: #fff;
+}
+
+.btn-one:hover{
+    background-color: #9e3119;
+    font-weight: 600;
+    transition: 0.2s all ease-in;
+}
+
+.btn-two{
+    background-color: #4b4e73;
+    border-radius: 25px;
+    font-size: 16px;
+    padding: 5px 30px;
+    margin: 30px 0px;
+    color: #fff;
+}
+
+.btn-two:hover{
+    background-color: #3a3c5a;
+    font-weight: 600;
+    transition: 0.2s all ease-in;
+}
+
+.poster img{
+    display: block;
+    margin: 50px auto;
+}
+/*7.0 Poster Section End*/
+
+/*8.0 Product Section Start*/
+
+.product{
+    background-color: #d75d0e;
+}
+
+.product .col-lg-4{
+    margin: 60px auto;
+    text-align: center;
+}
+
+.product a:hover{
+    color: #fff;
+}
+/*8.0 Product Section End*/
+
+/*9.0 Footer Section Start*/
+
+footer{
+    background: url(../img/footer-bg.png) no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+footer p{
+    margin: 70px auto;
+    color: #000;
+    text-align: center;
+}
+/*9.0 Footer Section End*/
+
+/*Media Query for mobile device from screen to 500px*/
+@media screen and (max-width:500px){
+    header .col-lg-6{
+        width: 50%;
+    }
+    
+    header .navbar{
+        float: right;
+    }
+    
+    .navbar-toggler{
+        float: right;
+    }
+    
+    .navbar-toggler:focus, .navbar-toggler:hover {
+        background-color: #dd4b2b;
+        transition: 0.2s all ease-in;
+    }
+    
+    .banner{
+        background-size: cover;
+        height: 800px;
+    }
+    
+    .banner .col-lg-12 h1{
+        margin-top: 30px;
+        font-size: 25px
+    }
+    .banner .col-lg-12 h5{
+        margin-top: 20px;
+        font-size: 20px
+    }
+    
+    .banner .col-lg-4 img{
+        width: 30%;
+    }
+    
+    .banner .col-lg-4 p{
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    
+    .banner .btn{
+        font-size: 12px;
+        padding: 10px 25px;
+    }
+    
+    .news .col-lg-12 h3{
+        font-size: 25px;
+    }
+    
+    .news .btn{
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    
+    .mail-address h3{
+        margin: 20px auto;
+        font-size: 25px;
+    }
+    
+    .mail-address .btn{
+        left: 26%;
+    }
+    
+    .poster{
+        height: 1100px;
+    }
+    
+    .poster h3{
+        margin: 20px auto;
+        font-size: 25px;
+        text-align: center;
+    }
+    .poster p{
+        text-align: center;
+    }
+    
+    .poster img{
+        width: 90%;
+        margin: 20px auto;
+    }
+    
+    .btn-one{
+    display: block;
+    margin: 20px auto;
+    }
+    
+    .btn-two{
+    display: block;
+    margin: 20px auto;
+    }
+    
+    .product .col-lg-4{
+        margin: 20px auto;
+    }
+    
+    footer{
+        height: 260px;
+    }
+}
