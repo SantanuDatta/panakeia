@@ -35,13 +35,18 @@ a{
 
 header {
     background-color: #edeff1;
-    padding: 15px 0px;
+    padding: 5px 0px;
+}
+
+.navbar{
+    width: 100%;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
     color: #31353e;
     padding-right: 20px;
     padding-left: 20px;
+	text-align: center;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:hover{
@@ -51,6 +56,16 @@ header {
     transition: 0.3s ease-in;
 }
 
+.navbar-toggler{
+	border: 0px;
+	font-size: 25px;
+}
+    
+.navbar-toggler:focus, .navbar-toggler:hover {
+    color: #dd4b2b;
+    transition: 0.2s all ease-in;
+}
+
 /*3.0 Header Section End*/
 
 /*4.0 Banner Section Start*/
@@ -58,7 +73,7 @@ header {
 .banner{
     background: url(../img/Banner-bg.png) no-repeat;
     background-size: cover;
-    height: 1000px;
+    min-height: 50rem;
 }
 
 .banner .col-lg-12 h1{
@@ -219,7 +234,7 @@ header {
 
 .poster{
     background-color: #edeff1;
-    height: 700px;
+    padding: 40px 0px;;
 }
 
 .poster h3{
@@ -286,40 +301,27 @@ header {
 /*9.0 Footer Section Start*/
 
 footer{
-    background: url(../img/footer-bg.png) no-repeat;
-    background-size: cover;
-    height: 200px;
+    padding: 0px 0px;
+    background-color: #333;
 }
 
 footer p{
-    margin: 70px auto;
-    color: #000;
+    margin: 0px auto;
+    color: #fff;
     text-align: center;
+    font-size: 10px;
 }
 /*9.0 Footer Section End*/
 
-/*Media Query for mobile device from screen to 500px*/
-@media screen and (max-width:500px){
-    header .col-lg-6{
-        width: 50%;
-    }
+/*Media Query for mobile device from screen to 550px*/
+@media screen and (max-width:550px){
     
-    header .navbar{
-        float: right;
-    }
-    
-    .navbar-toggler{
-        float: right;
-    }
-    
-    .navbar-toggler:focus, .navbar-toggler:hover {
-        background-color: #dd4b2b;
-        transition: 0.2s all ease-in;
+    .navbar{
+        text-align: right;
     }
     
     .banner{
-        background-size: cover;
-        height: 800px;
+        min-height: 30rem;
     }
     
     .banner .col-lg-12 h1{
@@ -360,13 +362,95 @@ footer p{
     }
     
     .mail-address .btn{
-        left: 27%;
+        right: 27%;
     }
     
-    .poster{
-        height: 1200px;
+    .poster h3{
+        margin: 20px auto;
+        font-size: 25px;
+        text-align: center;
+    }
+	
+    .poster p{
+        text-align: center;
     }
     
+    .poster img{
+        width: 90%;
+        margin: 20px auto;
+    }
+    
+    .btn-one{
+        display: block;
+        margin: 20px auto;
+    }
+    
+    .btn-two{
+        display: block;
+        margin: 20px auto;
+    }
+    
+    .product .col-lg-4{
+        margin: 20px auto;
+    } 
+}
+
+/*Media Query for tablet device from 500px to 990px*/
+@media (min-width:550px) and (max-width:990px){
+    
+    .navbar{
+        text-align: center;
+    }
+    
+    .banner{
+        min-height: 30rem;
+    }
+    
+    .banner .col-lg-12 h1{
+        margin-top: 30px;
+        font-size: 25px
+    }
+    .banner .col-lg-12 h5{
+        margin-top: 20px;
+        font-size: 20px
+    }
+    
+    .banner .col-lg-4{
+        width: 33.3%;
+    }
+    
+    .banner .col-lg-4 img{
+        width: 50%;
+    }
+    
+    .banner .col-lg-4 p{
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    
+    .banner .btn{
+        font-size: 12px;
+        padding: 10px 25px;
+    }
+    
+    .news .col-lg-12 h3{
+        font-size: 25px;
+    }
+    
+    .news .btn{
+        margin-top: 20px;
+        font-size: 10px;
+    }
+    
+    .mail-address h3{
+        margin: 20px auto;
+        font-size: 25px;
+    }
+    
+    .mail-address .btn{
+        right: 12%;
+    }
+     
     .poster h3{
         margin: 20px auto;
         font-size: 25px;
@@ -382,20 +466,18 @@ footer p{
     }
     
     .btn-one{
-    display: block;
-    margin: 20px auto;
-    }
-    
-    .btn-two{
-    display: block;
-    margin: 20px auto;
-    }
-    
-    .product .col-lg-4{
+        display: block;
         margin: 20px auto;
     }
     
-    footer{
-        height: 260px;
+    .btn-two{
+        display: block;
+        margin: 20px auto;
     }
+    
+    .product .col-lg-4{
+        width: 33.3%;
+        margin: 20px auto;
+    } 
+}
 }
